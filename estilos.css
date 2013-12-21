@@ -87,10 +87,24 @@ nav #publicar_nav a{
 #contenido .item{
 	background: white;
 	border-bottom: 3px #22BCE0 solid;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
 }
 #contenido .item p{
 	color: #7A7A7A;
 	font-size: 0.9em;
+}
+#contenido .item .votacion_item{
+ background: white;
+border-radius: 0 0 0.5em 0.5em;
+ margin: 3px 0 0 0;
+ padding: 0.5em 0;
+ position: absolute;
+ text-align: center;
+ top: 100%;
+ width: 96px;
+ 
 }
 
 #contenido .item .datos_item .tag_item{
